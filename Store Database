@@ -1,0 +1,11 @@
+CREATE TABLE Clothes (id INTEGER, name TEXT, quantity INTEGER, price INTEGER); 
+
+INSERT INTO Clothes VALUES (1, "shirt", 7, 10);
+INSERT INTO Clothes VALUES (2, "pants", 11, 15);
+INSERT INTO Clothes VALUES (3, "socks", 8, 6);
+INSERT INTO Clothes VALUES (4, "underwear", 13,7);
+INSERT INTO Clothes VALUES (5, "shoes", 12,30);
+
+SELECT * FROM Clothes WHERE price > 7 ORDER BY price; 
+
+SELECT SUM (price) FROM Clothes;
