@@ -1,0 +1,8 @@
+CREATE TABLE favoritebooks (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO favoritebooks VALUES (1, "coldest winter ever", 9);
+INSERT INTO favoritebooks VALUES (2, "geniveve", 8);
+INSERT INTO favoritebooks VALUES (3, "redbone", 7); 
+INSERT INTO favoritebooks VALUES (4, "we lie here", 6);
+INSERT INTO favoritebooks VALUES (5, "The other woman", 5);
+INSERT INTO favoritebooks VALUES (6, "a wanted woman", 10)
